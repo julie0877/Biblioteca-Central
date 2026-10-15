@@ -1,0 +1,31 @@
+body{
+background: #1f301f;
+background: linear-gradient(90deg, rgba(31, 48, 31, 1) 0%, rgba(179, 179, 179, 1) 50%, rgba(13, 48, 12, 1) 100%);
+}
+.label{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(247, 255, 250);
+}
+
+.livro{
+    width: 180px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: rgb(120, 148, 119);
+    color: rgb(57, 109, 77);
+    font-weight: 500;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    box-shadow: 0 3px 5px -3px rgb(31, 61, 39);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
